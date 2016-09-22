@@ -175,3 +175,7 @@ var render = function () {
     // scene 3D színtér képe a camera kamera szemszögéből.
     renderer.render( scene, camera );
 };
+
+document.addEventListener('DOMContentLoaded', function () {
+    init();
+})
